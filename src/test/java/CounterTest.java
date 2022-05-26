@@ -25,7 +25,7 @@ public class CounterTest {
 		
 		for(int i = 0; i <10; i++) {
 			testCounter.increment();
-			assertEquals(testCounter.getCount(), i - 1);
+			assertEquals(testCounter.getCount(), i + 1);
 		}
 	}
 
@@ -35,7 +35,7 @@ public class CounterTest {
 		
 		for(int i = 0; i <10; i++) {
 			testCounter.decrement();
-			assertEquals(testCounter.getCount(), i-1);
+			assertEquals(testCounter.getCount(), i - 1);
 		}
 	}
 
