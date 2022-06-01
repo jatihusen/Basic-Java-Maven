@@ -26,3 +26,5 @@ jobs:
       run: mvn -B package --file pom.xml
     - name: Official SonarQube Scan
       uses: SonarSource/sonarqube-scan-action@v1.1.0
+      env:
+        SONAR_TOKEN: $a9dd8cd4c64a4f9ca56ed400785ec94ad77bc7ea
