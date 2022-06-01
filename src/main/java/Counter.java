@@ -37,7 +37,7 @@ public class Counter {
 	}
 	
 	public void triple(){
-		multiplyBy(3)
+		multiplyBy(3);
 	}
 	
 	public boolean isCountEven(){
