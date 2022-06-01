@@ -32,12 +32,13 @@ public class Counter {
 		count = count * i;
 	}
 	
-	public void double(){
-		multiplyBy(2);
-	}
-	
 	public void triple(){
-		multiplyBy(3);
+		int i = 3;
+		multiplyBy(i);
+	}
+
+	public void powerBy(int i){
+		count = count ^ i;
 	}
 	
 	public boolean isCountEven(){
