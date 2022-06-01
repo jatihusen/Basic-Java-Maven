@@ -33,11 +33,11 @@ public class Counter {
 	}
 	
 	public void double(){
-		multiplyBy(2);
+		this.multiplyBy(2);
 	}
 	
 	public void triple(){
-		multiplyBy(3);
+		this.multiplyBy(3);
 	}
 	
 	public boolean isCountEven(){
